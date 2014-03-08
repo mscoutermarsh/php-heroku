@@ -65,10 +65,11 @@ return array(
 
     'pgsql' => array(
       'driver'   => 'pgsql',
-      'host'     => $_ENV["DB_HOST"].":".$_ENV["DB_PORT"],
-      'database' => $_ENV["DB_NAME"],
-      'username' => $_ENV["DB_USERNAME"],
-      'password' => $_ENV["DB_PASSWORD"],
+      'host'     => 'host-name-here',
+      'port'     => 5432,
+      'database' => 'database-name',
+      'username' => 'username',
+      'password' => 'password',
       'charset'  => 'utf8',
       'prefix'   => '',
       'schema'   => 'public',
